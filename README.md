@@ -54,7 +54,7 @@ The default `.env` expects PostgreSQL on `localhost:5432`.
 ### 3. Create the database and seed data
 
 ```bash
-# Run once as a PostgreSQL superuser
+# Run once as a PostgreSQL superuser. Skip if they already exist.
 psql postgres -c "CREATE USER chat_user WITH PASSWORD 'chat_password';"
 psql postgres -c "CREATE DATABASE chat_db OWNER chat_user;"
 ```
