@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+serviceAccount*.json
+*.key
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.DS_Store
+.vitest/
